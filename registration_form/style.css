@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "DM Serif Text", serif;
+}
+.container{
+    max-width: 80%;
+    padding: 23px;
+    background-color:rgba(0, 85, 128, 0.055);
+     box-sizing: border-box;                /* center k liye */
+    margin: auto; 
+}
+.container h1{
+    text-align: center;      /* center k liye */
+    font-family: "DM Serif Text", serif;
+    font-size:37px;
+    color: red;
+}
+p{
+    font-size: medium;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+}
+input,textarea{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size:medium;       /* letter ka size small large k liye */
+    border: 3px solid black;
+    border-radius: 25px;           /*  border ko rectangle ya square k liye*/
+    outline: none;     
+    text-align: center;           /*  letter m line nhi ane k liye */
+}
+form{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+color: white;
+background-color: purple;
+cursor: pointer;        /*  mouse ka sign lane l liye */
+padding: 10px 10px;
+border: 3px solid white;
+border-radius: 10px;
+font-size: medium;
+}
+.bg{
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    z-index: -5;     /* photo ko back sise m karne k liye*/
+    opacity: 2.0;    /*   photo ko light or non light karne k liye* */
+}
+.submitmsg{
+    color: green;
+    font-size: 25px;
+    font-family: "DM Serif Text", serif;
+}
